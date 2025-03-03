@@ -194,6 +194,11 @@ FROM orders
 GROUP BY delivery_status;
 ```
 
+### Key Insight and recommendations
+- Are there any noticeable sales trends over time?
+   - There is a downward noticeable sales trend overtime.
+   - From October to April, sales were high showing a peak period but from May to September, sales fluctuated and declined.
+
 
 
 
