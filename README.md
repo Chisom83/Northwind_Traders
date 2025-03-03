@@ -20,14 +20,17 @@ The goal was to uncover growth opportunities, improve operational efficiency and
     - Can you identify any key customers?
     - Are shipping costs consistent across providers?
     - How fast is their delivery service, how many orders are delivered on time or late?
- 
+
+### Tools Used
+- Excel - Data cleaning and Preparation
+- Structure Query Language (SQL) - Querying and extracting insights from the database
+- Power Bi - Interactive dashboard creation for visualization and analysis
+
   ### Data Source
 The dataset used for this analysis can be accessed in Microsoft Excel download here
 
-### Tools Used
--	Excel - Data cleaning and Preparation
-- Structure Query Language (SQL) - Querying and extracting insights from the database
-- Power Bi - Interactive dashboard creation for visualization and analysis
+### Data Cleaning
+- the dataset was cleaned 
 
 ### SQL Query
 - Key Metrics
