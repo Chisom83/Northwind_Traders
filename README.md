@@ -30,7 +30,11 @@ The goal was to uncover growth opportunities, improve operational efficiency and
 The dataset used for this analysis can be accessed in Microsoft Excel download here
 
 ### Data Cleaning
-- the dataset was cleaned 
+- the dataset was cleaned in excel to ensure consistency and accuracy before analysis.
+- Duplicate were identified and removed.
+- Missing values were handled usind the mean, replacing them with the average avaliable data.
+
+### Exploratory Data Analysis
 
 ### SQL Query
 - Key Metrics
@@ -198,6 +202,7 @@ GROUP BY delivery_status;
 ```
 
 ### Key Insight and recommendations
+- the revenue of the businessflualate because from 2013 the dataset started from half of the year to 2015 first half of the year.
 - Are there any noticeable sales trends over time?
    - There is a downward noticeable sales trend overtime.
    - From October to April, sales were high showing a peak period but from May to September, sales fluctuated and declined.
