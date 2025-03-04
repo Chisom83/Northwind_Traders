@@ -234,5 +234,8 @@ GROUP BY delivery_status;
 - Implement targeted marketing campagins and promotions during low sales month to drive sales.
 - Best performing product should be stocked up more and under performing products should be discontinued orprice should be adjusted in other to increase sales.
 - Relationship with key customers should be strengthen like SAVEA and ERNISH by offering discounts and gifts.
+- Use customer purchase behaviour analysis to create personalized marketing strategies.
+- Social media and digital marketing should be well utilized to drive brand awareness and customer acqusitions.
+- Shipping companies offering fast and reliable services at competitive rate should be partenered with.
 
 
