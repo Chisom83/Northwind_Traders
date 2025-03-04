@@ -238,4 +238,5 @@ GROUP BY delivery_status;
 - Social media and digital marketing should be well utilized to drive brand awareness and customer acqusitions.
 - Shipping companies offering fast and reliable services at competitive rate should be partenered with.
 
-
+### Dashboard
+- A screenshot of the dashboard
