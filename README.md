@@ -34,7 +34,10 @@ The dataset used for this analysis can be accessed in Microsoft Excel download h
 - Duplicate were identified and removed.
 - Missing values were handled usind the mean, replacing them with the average avaliable data.
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis (EDA)
+- Using postgress SQL the dataset was queried to uncover sale trend, product performance, customer behaviour and shipping efficiency
+- Identified patterns, seasonality and correlations.
+- Using Power Bi I visualized Key Metrics and buusiness questions by creating an interactive dashboard. 
 
 ### SQL Query
 - Key Metrics
@@ -201,11 +204,30 @@ FROM orders
 GROUP BY delivery_status;
 ```
 
-### Key Insight and recommendations
-- the revenue of the businessflualate because from 2013 the dataset started from half of the year to 2015 first half of the year.
+### Key Insight 
+- Revenue Fluctuation
+   - Northwind revenue fluctuated due to the dataset covering only the second half of 2013, the fll year of 2014 and the first half of 2015.
+   - The partial dataset affects revenue comparison across all states.
+
 - Are there any noticeable sales trends over time?
    - There is a downward noticeable sales trend overtime.
-   - From October to April, sales were high showing a peak period but from May to September, sales fluctuated and declined.
+   - Peak sales occurs from October to April, indicating strong demand during these months.
+   - Sales decline between May to September, showing a seasonal drop in demand.
+
+- Best/Worst selling product
+   - Products performance varied by year, with some items performing well in one year but declining in another.
+   - This shows change in customer preferences and market demand.
+ 
+- Key customer
+   - SAVEA is the key customer, generating $94,063 in revenue, followed by ERNSH with $85,630.
+   - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong loyalty.
+     
+- Shipping cost Consistency
+   -  Shipping cost vary significantly across different providers.
+   -  Federal shipping has the higest shipping cost, while Speedy Express offers the lowest rate.
+ 
+- Delivery service performance
+  - On time delivery is generally consistent across all providers, indicating efficient logistics and order fufillment.
 
 
 
