@@ -229,6 +229,10 @@ GROUP BY delivery_status;
 - Delivery service performance
   - On time delivery is generally consistent across all providers, indicating efficient logistics and order fufillment.
 
-
+### Recomendations
+- deeper analysis of revenue fluctuations should be conducted to understand the major impact of seasonal trend.
+- Implement targeted marketing campagins and promotions during low sales month to drive sales.
+- Best performing product should be stocked up more and under performing products should be discontinued orprice should be adjusted in other to increase sales.
+- Relationship with key customers should be strengthen like SAVEA and ERNISH by offering discounts and gifts.
 
 
