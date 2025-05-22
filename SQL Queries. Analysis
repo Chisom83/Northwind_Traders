@@ -1,0 +1,21 @@
+# This files contains all the Sql Queries used in this analysis
+
+### SQL Query
+- Key Metrics
+
+Total Orders
+```sql
+SELECT
+	COUNT(DISTINCT order_id) AS Total_orders
+FROM orders;
+Total Revenue
+```
+
+```sql
+SELECT
+	SUM(od.quantity * p.unit_price *(1-od.discount)) AS total_revenue
+FROM order_details AS od
+JOIN products p
+ON od.product_id = p.product_id;
+Average Order Value
+```
