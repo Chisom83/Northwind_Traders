@@ -1,7 +1,6 @@
-# This files contains all the Sql Queries used in this analysis
+## This files contains all the Sql Queries used in this analysis
 
-### SQL Query
-- Key Metrics
+### Key Metrics
 
 **Total Orders**
 ```sql
@@ -10,7 +9,7 @@ SELECT
 FROM orders;
 ```
 
-Total Revenue
+**Total Revenue**
 ```sql
 SELECT
 	SUM(od.quantity * p.unit_price *(1-od.discount)) AS total_revenue
@@ -19,15 +18,15 @@ JOIN products p
 ON od.product_id = p.product_id;
 ```
 
-Average Order Value
+**Average Order Value**
 ```sql
 SELECT
 CAST(AVG(shipped_date - order_date) AS INTEGER) AS Average_shipping_time
 FROM orders;
 ```
 
-## Business Questions
-- Are there any noticeable sales trends over time?
+### Business Questions
+**Are there any noticeable sales trends over time?**
 
 ```sql
 SELECT
@@ -59,7 +58,7 @@ GROUP BY EXTRACT(MONTH FROM order_date)
 ORDER BY total_sales DESC;
 ```
 
-- Calculating for year trend
+**Calculating for year trend**
 ```sql
 SELECT
 	EXTRACT(YEAR FROM order_date) AS YEAR,
@@ -73,8 +72,9 @@ GROUP BY EXTRACT(YEAR FROM order_date)
 ORDER BY total_sales DESC;
 ```
 
-1- Which are the best and worst selling products?
-    - Best Selling Product
+**Which are the best and worst selling products?**
+
+- Best Selling Product
 
   ```sql
 SELECT
@@ -104,7 +104,7 @@ ORDER BY total_quantity ASC
 LIMIT 5;
 ```
 
-3.	Can you identify any key customers?
+**Can you identify any key customers?**
 
 ```sql   
 SELECT
@@ -123,7 +123,7 @@ ORDER BY total_revenue DESC
 LIMIT 5;
 ```
 
-4.	Are shipping costs consistent across providers?
+**Are shipping costs consistent across providers?**
 
 ```sql   
 SELECT
@@ -140,7 +140,7 @@ GROUP BY s.company_name
 ORDER BY stddev_shipping_cost DESC;
 ```
 
-5.	How fast is their delivery service, how many orders are delivered on time or late?
+**How fast is their delivery service, how many orders are delivered on time or late?**
 
 ```sql
 SELECT
