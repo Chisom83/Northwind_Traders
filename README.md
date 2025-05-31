@@ -39,7 +39,8 @@ The dataset used for this analysis can be accessed in Microsoft Excel download h
 - Identified patterns, seasonality and correlations.
 - Using Power Bi I visualized Key Metrics and buusiness questions by creating an interactive dashboard. 
 
-### SQL Query
+### SQL Query 
+
 - Key Metrics
 
 Total Orders
