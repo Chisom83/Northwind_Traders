@@ -3,7 +3,7 @@
 ### SQL Query
 - Key Metrics
 
-Total Orders
+**Total Orders**
 ```sql
 SELECT
 	COUNT(DISTINCT order_id) AS Total_orders
@@ -73,7 +73,7 @@ GROUP BY EXTRACT(YEAR FROM order_date)
 ORDER BY total_sales DESC;
 ```
 
-1 - Which are the best and worst selling products?
+1- Which are the best and worst selling products?
     - Best Selling Product
 
   ```sql
