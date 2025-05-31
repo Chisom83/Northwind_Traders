@@ -8,26 +8,26 @@ Total Orders
 SELECT
 	COUNT(DISTINCT order_id) AS Total_orders
 FROM orders;
-Total Revenue
 ```
 
+Total Revenue
 ```sql
 SELECT
 	SUM(od.quantity * p.unit_price *(1-od.discount)) AS total_revenue
 FROM order_details AS od
 JOIN products p
 ON od.product_id = p.product_id;
-Average Order Value
 ```
 
+Average Order Value
 ```sql
 SELECT
 CAST(AVG(shipped_date - order_date) AS INTEGER) AS Average_shipping_time
 FROM orders;
 ```
 
-- Business Questions
-1. Are there any noticeable sales trends over time?
+## Business Questions
+- Are there any noticeable sales trends over time?
 
 ```sql
 SELECT
@@ -59,7 +59,7 @@ GROUP BY EXTRACT(MONTH FROM order_date)
 ORDER BY total_sales DESC;
 ```
 
-- Year
+- Calculating for year trend
 ```sql
 SELECT
 	EXTRACT(YEAR FROM order_date) AS YEAR,
@@ -73,8 +73,8 @@ GROUP BY EXTRACT(YEAR FROM order_date)
 ORDER BY total_sales DESC;
 ```
 
-2.	Which are the best and worst selling products?
--	Best Selling Product
+1 - Which are the best and worst selling products?
+    - Best Selling Product
 
   ```sql
 SELECT
