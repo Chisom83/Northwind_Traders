@@ -21,6 +21,18 @@ ON od.product_id = p.product_id;
 **Average Order Value**
 ```sql
 SELECT
+ 	SUM(od.quantity * p.unit_price*(1-od.discount))/
+	COUNT(DISTINCT o.order_id) AS Average_order_Value
+FROM orders AS o
+JOIN order_details od
+ON o.order_id = od.order_id
+JOIN products p
+ON od.product_id = p.product_id;
+```
+
+**Shipping Efficiency (Average Shipping Time)**
+```sql
+SELECT
 CAST(AVG(shipped_date - order_date) AS INTEGER) AS Average_shipping_time
 FROM orders;
 ```
