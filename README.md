@@ -42,30 +42,69 @@ The dataset used for this analysis can be accessed in Microsoft Excel download h
 ### SQL Query
 View all SQL queries for this analysis [View SQL Queries](https://github.com/Chisom83/Northwind_Traders/blob/main/SQL_docuentation.md)
 
-### Key Insight 
-- Revenue Fluctuation
-   - Northwind revenue fluctuated due to the dataset covering only the second half of 2013, the fll year of 2014 and the first half of 2015.
-   - The partial dataset affects revenue comparison across all states.
+### DAX Measures
+[View DAX Measures](https://github.com/Chisom83/Northwind_Traders/blob/main/DAX_Measures.md)
 
-- Are there any noticeable sales trends over time?
+### Key Insight 
+#### KPI
+- Total Orders
+> Image
+> Insight
+> Measure Used:
+
+- Total Revenue
+> Image
+> Insight
+> Measure Used
+
+- Average Order Value
+> Image
+> Insight
+> Measure Used
+
+- Shipping Efficiency (Average Shipping Time)
+> Image
+> Insight
+> Measure Used
+
+
+1. Are there any noticeable sales trends over time?
+> Image
+- Insight
    - There is a downward noticeable sales trend overtime.
    - Peak sales occurs from October to April, indicating strong demand during these months.
    - Sales decline between May to September, showing a seasonal drop in demand.
+- Measure Used:
 
-- Best/Worst selling product
-   - Products performance varied by year, with some items performing well in one year but declining in another.
-   - This shows change in customer preferences and market demand.
+ 2. Which are the best and worst selling products?
+> Image
+- Insight
+   - Best Selling Product
+       - Products performance varied by year, with some items performing well in one year but declining in another.
+       - This shows change in customer preferences and market demand.
+   - Worst Selling Product
+       - 
+- Measure Used:
  
-- Key customer
+3.Identify any key customers?
+> Image
+- Insight
    - SAVEA is the key customer, generating $94,063 in revenue, followed by ERNSH with $85,630.
    - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong loyalty.
+- Measure Used:
      
-- Shipping cost Consistency
+4. Are shipping costs consistent across providers?
+> Image
+- Insight
    -  Shipping cost vary significantly across different providers.
    -  Federal shipping has the higest shipping cost, while Speedy Express offers the lowest rate.
+- Measure Used:
  
-- Delivery service performance
+5. How fast is their delivery service, how many orders are delivered on time or late?
+> Image
+- Insight
   - On time delivery is generally consistent across all providers, indicating efficient logistics and order fufillment.
+- Measure Used:
 
 ### Recomendations
 - deeper analysis of revenue fluctuations should be conducted to understand the major impact of seasonal trend.
@@ -78,3 +117,5 @@ View all SQL queries for this analysis [View SQL Queries](https://github.com/Chi
 
 ### Dashboard
 - A screenshot of the dashboard
+
+- Link to dashboard
