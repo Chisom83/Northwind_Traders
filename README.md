@@ -1,5 +1,8 @@
 # Northwind_Traders
 
+## Table of Content
+[Project Overview](#project-overview)
+
 ## Project Overview
 Northwind Traders is a global supplier of speciality food products. This project focuses on analyzing customer orders, product performance, shipping efficiency and sales trend to help optimize their operations. 
 
