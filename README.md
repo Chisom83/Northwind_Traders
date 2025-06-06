@@ -138,7 +138,8 @@ $1.62K is the overall AOV.
 - Measure Used:[Switch Product Top/Bottom](DAX_Measures.md#swith-product-top-bottom) and the the ProductName column.
  
 #### 3. Identify any key customers?
-> Image
+![Key Customer](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N%C3%87ust.png?raw=true)
+
 - Insight
    - SAVEA is the key customer, generating $94,063 in revenue, followed by ERNSH with $85,630.
    - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong brand loyalty.
