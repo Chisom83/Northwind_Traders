@@ -74,26 +74,24 @@ View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)
 #### Average Order Value
 > Image
 - Insight:
-
 $1.62K is the overall AOV.
-   - 2013: $1.75K.
-   - 2014: $1.58K.
-   - 2015: $1.60K.
-   - In 2013, AOV exceeded the overall AOV which shows that customers made fewer but larger purchase.
-   - While in 2014 the AOV is slghtly low because it had more diverse spending patterns which balanced out the higher AOV in 2013.
+    - 2013: $1.75K.
+    - 2014: $1.58K.
+    - 2015: $1.60K.
+    - In 2013, AOV exceeded the overall AOV which shows that customers made fewer but larger purchase.
+    - While in 2014 the AOV is slghtly low because it had more diverse spending patterns which balanced out the higher AOV in 2013.
  
 
 - Measure Used: [AOV](DAX_Measures.md#aov)
 
-- Shipping Efficiency (Average Shipping Time)
+#### Shipping Efficiency (Average Shipping Time)
 > Image
 - Insight:
-
-Shipping time ranged between 8-9 days, which is considered reasonable fo standard delivery
-    - 2013: 8 days
-    - 2014: 9 days
-    - 2015: 8 days
-    - 2014 had slightly longer shipping time compared to other years, but overall delivery performance remained within an acceptable range.
+- Shipping time ranged between 8-9 days, which is considered reasonable fo standard delivery
+     - 2013: 8 days
+     - 2014: 9 days
+     - 2015: 8 days
+     - 2014 had slightly longer shipping time compared to other years, but overall delivery performance remained within an acceptable range.
 
 - Measure Used: [Average Shipping Time](DAX_Measures.md#average-shipping-time)
 
@@ -109,7 +107,7 @@ Shipping time ranged between 8-9 days, which is considered reasonable fo standar
  2. Which are the best and worst selling products?
 > Image
 - Insight
-       - Products performance varied by year, with some items performing strongly in one year and declining in another indicating shifts in customer preference and market demand.
+   - Products performance varied by year, with some items performing strongly in one year and declining in another indicating shifts in customer preference and market demand.
  
 - Measure Used:[Switch Product Top/Bottom](DAX_Measures.md#swith-product-top-bottom) and the the ProductName column.
  
