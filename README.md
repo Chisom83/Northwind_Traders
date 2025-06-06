@@ -76,7 +76,8 @@ View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)
 - Measure Used: [Total Revenue](DAX_Measures.md#total-revenue), [PYRevenue](DAX_Measures.md#pyrevenue)
  
 #### Total Orders
-> Image
+![Total Orders](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.Ord.png?raw=true)
+
 - Insight:
  A total of 700 orders were recorded.
      - 2013: 130 orders.
