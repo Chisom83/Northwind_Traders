@@ -99,7 +99,7 @@ $1.62K is the overall AOV.
 
 - Measure Used: [AOV](DAX_Measures.md#aov), [PYAOV](DAX_Measures.md#pyaov)
 
-#### Shipping Efficiency (Average Shipping Time)
+#### 1. Shipping Efficiency (Average Shipping Time)
 ![Average Shipping Time](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.AST.png?raw=true)
 
 - Insight:
@@ -112,15 +112,16 @@ $1.62K is the overall AOV.
 - Measure Used: [Average Shipping Time](DAX_Measures.md#average-shipping-time)
 
 
-#### Are there any noticeable sales trends over time?
-> Image
+#### 2. Are there any noticeable sales trends over time?
+![Trend](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.Trend.png?raw=true)
+
 - Insight
    - There is a downward noticeable sales trend overtime.
    - Peak sales occurs from October to April, indicating strong demand during these months.
    - Sales decline between May to September, showing a seasonal drop in demand.
 - Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the Month column.
 
-#### Which are the best and worst selling products?
+#### 3. Which are the best and worst selling products?
 
 ##### Best Performing
 
@@ -135,14 +136,14 @@ $1.62K is the overall AOV.
  
 - Measure Used:[Switch Product Top/Bottom](DAX_Measures.md#swith-product-top-bottom) and the the ProductName column.
  
-#### Identify any key customers?
+#### 4. Identify any key customers?
 > Image
 - Insight
    - SAVEA is the key customer, generating $94,063 in revenue, followed by ERNSH with $85,630.
    - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong brand loyalty.
 - Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the CustomerID column.
      
-#### Are shipping costs consistent across providers?
+#### 5.Are shipping costs consistent across providers?
    
 ![Average Shipping Cost](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.A.png?raw=true)
 
