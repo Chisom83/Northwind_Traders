@@ -121,7 +121,11 @@ $1.62K is the overall AOV.
 - Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the Month column.
 
  2. Which are the best and worst selling products?
-> Image
+
+##### Best Performing
+
+![Best Performing](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.TandB.png?raw=true)
+
 - Insight
    - Products performance varied by year, with some items performing strongly in one year and declining in another indicating shifts in customer preference and market demand.
  
