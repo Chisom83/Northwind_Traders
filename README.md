@@ -159,7 +159,10 @@ $1.62K is the overall AOV.
 ![Late/Ontime Delivery](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.LandT.png?raw=true)
 
 - Insight
-  - On time delivery is generally consistent across all providers, indicating efficient logistics and order fufillment.
+  - In general delivery is on time and consistent across the three providers, indicating efficient logistics and order fufillment.
+     - Ontime delivery: 95.43%
+     - Late delivery: 4.57%.
+
 - Measure Used:[OnTimeDelivery](DAX_Measures.md#on-time-delivery), [LateDelivery](DAX_Measures.md#late-delivery).
 
 ### Recomendations
