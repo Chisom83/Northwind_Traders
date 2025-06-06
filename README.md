@@ -49,21 +49,40 @@ View all SQL queries for this analysis [View SQL Queries](https://github.com/Chi
 [View DAX Measures](https://github.com/Chisom83/Northwind_Traders/blob/main/DAX_Measures.md)
 
 ### Key Insight 
-#### KPI
-- Total Orders
+- This analysis covers sales from mid 2013 to mid 2015.
+### KPI
+#### Total Orders
 > Image
-> Insight
-> Measure Used:
+- Insight:
+A total of $1 million in revenue was generated across the period.
+    - 2013 generated $227K covers only the second half of the year data.
+    - 2014 generated 565K for full year data.
+    - 2015 generated 339K covers only the first half of the year data.
+  - 2014 recorded the highest revenue, driven by both higher order volume and full year sales.    
+- Measure Used:
 
-- Total Revenue
+#### Total Revenue
 > Image
-> Insight
-> Measure Used
+- Insight:
+  A total of 700 orders were recorded.
+     - 2013: 130 orders.
+     - 2014: 359 orders.
+     - 2015: 211 orders.
+  
+- Measure Used
 
-- Average Order Value
+#### Average Order Value
 > Image
-> Insight
-> Measure Used
+- Insight:
+$1.62K is the overall AOV.
+   - 2013: $1.75K.
+   - 2014: $1.58K.
+   - 2015: $1.60K.
+ - In 2013, AOV exceeded the overall AOV which shows that customers made fewer but larger purchase.
+ - While in 2014 the AOV is slghtly low because it had more diverse spending patterns which balanced out the higher AOV in 2013.
+ 
+
+- Measure Used
 
 - Shipping Efficiency (Average Shipping Time)
 > Image
