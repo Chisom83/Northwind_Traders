@@ -69,7 +69,8 @@ View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)
      - 2014: 359 orders.
      - 2015: 211 orders.
   
-- Measure Used
+- Measure Used: [Total Orders](DAX_Measures.md#total-orders)
+  
 #### Average Order Value
 > Image
 - Insight:
@@ -82,7 +83,7 @@ $1.62K is the overall AOV.
    - While in 2014 the AOV is slghtly low because it had more diverse spending patterns which balanced out the higher AOV in 2013.
  
 
-- Measure Used
+- Measure Used: [AOV](DAX_Measures.md#aov)
 
 - Shipping Efficiency (Average Shipping Time)
 > Image
@@ -94,7 +95,7 @@ Shipping time ranged between 8-9 days, which is considered reasonable fo standar
     - 2015: 8 days
     - 2014 had slightly longer shipping time compared to other years, but overall delivery performance remained within an acceptable range.
 
-- Measure Used
+- Measure Used: [Average Shipping Time](DAX_Measures.md#average-shipping-time)
 
 
 1. Are there any noticeable sales trends over time?
@@ -103,34 +104,34 @@ Shipping time ranged between 8-9 days, which is considered reasonable fo standar
    - There is a downward noticeable sales trend overtime.
    - Peak sales occurs from October to April, indicating strong demand during these months.
    - Sales decline between May to September, showing a seasonal drop in demand.
-- Measure Used:
+- Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the Month column.
 
  2. Which are the best and worst selling products?
 > Image
 - Insight
        - Products performance varied by year, with some items performing strongly in one year and declining in another indicating shifts in customer preference and market demand.
  
-- Measure Used:
+- Measure Used:[Switch Product Top/Bottom](DAX_Measures.md#swith-product-top-bottom) and the the ProductName column.
  
 3.Identify any key customers?
 > Image
 - Insight
    - SAVEA is the key customer, generating $94,063 in revenue, followed by ERNSH with $85,630.
    - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong brand loyalty.
-- Measure Used:
+- Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the CustomerID column.
      
 4. Are shipping costs consistent across providers?
 > Image
 - Insight
    -  Shipping cost vary significantly across different providers.
    -  Federal shipping has the higest shipping cost, while Speedy Express offers the lowest rate.
-- Measure Used:
+- Measure Used:[Average Freight](DAX_Measures.md#average-freight) and CompanyName column.
  
 5. How fast is their delivery service, how many orders are delivered on time or late?
 > Image
 - Insight
   - On time delivery is generally consistent across all providers, indicating efficient logistics and order fufillment.
-- Measure Used:
+- Measure Used:[OnTimeDelivery](DAX_Measures.md#on-time-delivery), [LateDelivery](DAX_Measures.md#late-delivery).
 
 ### Recomendations
 - Deeper analysis on revenue fluctuations should be conducted to understand the major impact of seasonal trend.
