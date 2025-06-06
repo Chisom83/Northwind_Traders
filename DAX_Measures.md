@@ -4,14 +4,44 @@
 ```
 SUMX(order_details,order_details[quantity] * RELATED(products[unitPrice]) * (1- order_details[discount]))
 ```
+
+### PYRevenue 
+```
+VAR PY = CALCULATE([Total Revenue],PREVIOUSYEAR('Calendar'[Date]))
+VAR CY = [Total Revenue]
+VAR PCT = FORMAT(DIVIDE(CY - PY, PY, 0), "0%")
+VAR ARROW_SIGN = IF(CY > PY,"◬", "▽")
+RETURN "PY:" & PCT & ARROW_SIGN
+```
+
 ### Total Orders
 ```
 DISTINCTCOUNT(orders[orderID])
 ```
+
+### PYOrders 
+```
+VAR PY = CALCULATE([Total Orders],PREVIOUSYEAR('Calendar'[Date]))
+VAR CY = [Total Orders]
+VAR PCT = FORMAT(DIVIDE(CY - PY, PY, 0), "0%")
+VAR ARROW_SIGN = IF(CY > PY,"◬", "▽")
+RETURN "PY:" & PCT & ARROW_SIGN
+```
+
 ### AOV 
 ```
 AVERAGEX(orders, [Total Revenue])
 ```
+
+### PYAOV  
+```
+VAR PY = CALCULATE([AOV],PREVIOUSYEAR('Calendar'[Date]))
+VAR CY = [AOV]
+VAR PCT = FORMAT(DIVIDE(CY - PY, PY, 0), "0%")
+VAR ARROW_SIGN = IF(CY > PY,"◬", "▽")
+RETURN "PY:" & PCT & ARROW_SIGN
+```
+
 ### Average Shipping Time
 ```
 AVERAGEX(orders,orders[shippedDate] - orders[orderDate])
