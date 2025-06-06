@@ -65,7 +65,8 @@ View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)
 - This analysis covers sales from mid 2013 to mid 2015.
 ### KPI
 #### Total Revenue
-> Image
+![Total Revenue](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.Rev.png?raw=true)
+
 - Insight:
 - A total of $1 million in revenue was generated across the period.
      - 2013 generated $227K covers only the second half of the year data.
