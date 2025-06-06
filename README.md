@@ -59,7 +59,7 @@ View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)
      - 2014 generated 565K for full year data.
      - 2015 generated 339K covers only the first half of the year data.
      - In 2014 revenue increased by apporimately 149% compared to 2013. While in 2015 revenue droped by 40% relative to the previous year.    
-- Measure Used: [Total Revenue](DAX_Measures.md#total-revenue)
+- Measure Used: [Total Revenue](DAX_Measures.md#total-revenue), [PYRevenue](DAX_Measures.md#pyrevenue)
  
 #### Total Orders
 > Image
@@ -69,7 +69,7 @@ View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)
      - 2014: 359 orders.
      - 2015: 211 orders.
   
-- Measure Used: [Total Orders](DAX_Measures.md#total-orders)
+- Measure Used: [Total Orders](DAX_Measures.md#total-orders), [PYOrders](DAX_Measures.md#pyorders)
   
 #### Average Order Value
 > Image
@@ -79,10 +79,9 @@ $1.62K is the overall AOV.
     - 2014: $1.58K.
     - 2015: $1.60K.
     - In 2013, AOV exceeded the overall AOV which shows that customers made fewer but larger purchase.
-    - While in 2014 the AOV is slghtly low because it had more diverse spending patterns which balanced out the higher AOV in 2013.
- 
+    - While in 2014 the AOV is slghtly low because it had more diverse spending patterns which balanced out the higher AOV in 2013. 
 
-- Measure Used: [AOV](DAX_Measures.md#aov)
+- Measure Used: [AOV](DAX_Measures.md#aov), [PYAOV](DAX_Measures.md#pyaov)
 
 #### Shipping Efficiency (Average Shipping Time)
 > Image
