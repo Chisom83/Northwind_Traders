@@ -51,28 +51,25 @@ View all SQL queries for this analysis [View SQL Queries](https://github.com/Chi
 ### Key Insight 
 - This analysis covers sales from mid 2013 to mid 2015.
 ### KPI
-#### Total Orders
-> Image
-- Insight:
-
-A total of $1 million in revenue was generated across the period.
-     - 2013 generated $227K covers only the second half of the year data.
-     - 2014 generated 565K for full year data.
-     - 2015 generated 339K covers only the first half of the year data.
-     - 2014 recorded the highest revenue, driven by both higher order volume and full year sales.    
-- Measure Used:
-
 #### Total Revenue
 > Image
 - Insight:
-
-   A total of 700 orders were recorded.
+- A total of $1 million in revenue was generated across the period.
+     - 2013 generated $227K covers only the second half of the year data.
+     - 2014 generated 565K for full year data.
+     - 2015 generated 339K covers only the first half of the year data.
+     - In 2014 revenue increased by apporimately 149% compared to 2013. While in 2015 revenue droped by 40% relative to the previous year.    
+- Measure Used:
+ 
+#### Total Orders
+> Image
+- Insight:
+ A total of 700 orders were recorded.
      - 2013: 130 orders.
      - 2014: 359 orders.
      - 2015: 211 orders.
   
 - Measure Used
-
 #### Average Order Value
 > Image
 - Insight:
@@ -111,18 +108,15 @@ Shipping time ranged between 8-9 days, which is considered reasonable fo standar
  2. Which are the best and worst selling products?
 > Image
 - Insight
-   - Best Selling Product
-       - Products performance varied by year, with some items performing well in one year but declining in another.
-       - This shows change in customer preferences and market demand.
-   - Worst Selling Product
-       - 
+       - Products performance varied by year, with some items performing strongly in one year and declining in another indicating shifts in customer preference and market demand.
+ 
 - Measure Used:
  
 3.Identify any key customers?
 > Image
 - Insight
    - SAVEA is the key customer, generating $94,063 in revenue, followed by ERNSH with $85,630.
-   - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong loyalty.
+   - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong brand loyalty.
 - Measure Used:
      
 4. Are shipping costs consistent across providers?
@@ -139,12 +133,11 @@ Shipping time ranged between 8-9 days, which is considered reasonable fo standar
 - Measure Used:
 
 ### Recomendations
-- deeper analysis of revenue fluctuations should be conducted to understand the major impact of seasonal trend.
-- Implement targeted marketing campagins and promotions during low sales month to drive sales.
-- Best performing product should be stocked up more and under performing products should be discontinued orprice should be adjusted in other to increase sales.
-- Relationship with key customers should be strengthen like SAVEA and ERNISH by offering discounts and gifts.
-- Use customer purchase behaviour analysis to create personalized marketing strategies.
-- Social media and digital marketing should be well utilized to drive brand awareness and customer acqusitions.
+- Deeper analysis on revenue fluctuations should be conducted to understand the major impact of seasonal trend.
+- Launch targeted marketing campagins and promotions during low sales month (May to september) to drive sales.
+- Best performing product should be stocked up more while reviewing or discontinung underperforming product. 
+- Relationship with key customers should be strengthen like SAVEA and ERNISH by offering incentives such exclusive discounts or gifts.
+- Utilize digital marketing presence (Social media, SEO, email marketing) to  improve brand visibilty and customer acquisition.
 - Shipping companies offering fast and reliable services at competitive rate should be partenered with.
 
 ### Dashboard
