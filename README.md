@@ -43,10 +43,10 @@ The dataset used for this analysis can be accessed in Microsoft Excel download h
 - Using Power Bi I visualized Key Metrics and buusiness questions by creating an interactive dashboard. 
 
 ### SQL Query
-View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)   https://github.com/Chisom83/Northwind_Traders/blob/main/SQL_docuentation.md)
+View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)   
 
 ### DAX Measures
-[View DAX Measures](./DAX_Measures.md)    https://github.com/Chisom83/Northwind_Traders/blob/main/DAX_Measures.md)
+[View DAX Measures](./DAX_Measures.md)   
 
 ### Key Insight 
 - This analysis covers sales from mid 2013 to mid 2015.
@@ -59,7 +59,7 @@ View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)
      - 2014 generated 565K for full year data.
      - 2015 generated 339K covers only the first half of the year data.
      - In 2014 revenue increased by apporimately 149% compared to 2013. While in 2015 revenue droped by 40% relative to the previous year.    
-- Measure Used:
+- Measure Used: [Total Revenue](DAX_Measures.md#total-revenue)
  
 #### Total Orders
 > Image
