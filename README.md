@@ -99,7 +99,7 @@ $1.62K is the overall AOV.
 
 - Measure Used: [AOV](DAX_Measures.md#aov), [PYAOV](DAX_Measures.md#pyaov)
 
-#### 1. Shipping Efficiency (Average Shipping Time)
+#### Shipping Efficiency (Average Shipping Time)
 ![Average Shipping Time](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.AST.png?raw=true)
 
 - Insight:
@@ -111,8 +111,9 @@ $1.62K is the overall AOV.
 
 - Measure Used: [Average Shipping Time](DAX_Measures.md#average-shipping-time)
 
+### Business Requirement Insight
 
-#### 2. Are there any noticeable sales trends over time?
+#### 1. Are there any noticeable sales trends over time?
 ![Trend](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.Trend.png?raw=true)
 
 - Insight
@@ -121,7 +122,7 @@ $1.62K is the overall AOV.
    - Sales decline between May to September, showing a seasonal drop in demand.
 - Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the Month column.
 
-#### 3. Which are the best and worst selling products?
+#### 2. Which are the best and worst selling products?
 
 ##### Best Performing
 
@@ -136,14 +137,14 @@ $1.62K is the overall AOV.
  
 - Measure Used:[Switch Product Top/Bottom](DAX_Measures.md#swith-product-top-bottom) and the the ProductName column.
  
-#### 4. Identify any key customers?
+#### 3. Identify any key customers?
 > Image
 - Insight
    - SAVEA is the key customer, generating $94,063 in revenue, followed by ERNSH with $85,630.
    - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong brand loyalty.
 - Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the CustomerID column.
      
-#### 5.Are shipping costs consistent across providers?
+#### 4.Are shipping costs consistent across providers?
    
 ![Average Shipping Cost](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.A.png?raw=true)
 
@@ -152,7 +153,7 @@ $1.62K is the overall AOV.
    -  Federal shipping has the higest shipping cost, while Speedy Express offers the lowest rate.
 - Measure Used:[Average Freight](DAX_Measures.md#average-freight) and CompanyName column.
  
-##### How fast is their delivery service, how many orders are delivered on time or late?
+##### 5. How fast is their delivery service, how many orders are delivered on time or late?
 
 ![Late/Ontime Delivery](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.LandT.png?raw=true)
 
