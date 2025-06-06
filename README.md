@@ -100,7 +100,8 @@ $1.62K is the overall AOV.
 - Measure Used: [AOV](DAX_Measures.md#aov), [PYAOV](DAX_Measures.md#pyaov)
 
 #### Shipping Efficiency (Average Shipping Time)
-> Image
+![Average Shipping Time](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.AST.png?raw=true)
+
 - Insight:
 - Shipping time ranged between 8-9 days, which is considered reasonable fo standard delivery
      - 2013: 8 days
