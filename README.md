@@ -3,6 +3,17 @@
 ## Table of Content
 [Project Overview](#project-overview)
 
+[SQL Query](#sql-query)
+
+[DAX Measures](#dax-measures)
+
+[Key Insight](#key-insight)
+
+[Recomendations](#recomendations)
+
+[Dashboard](#dashboard)
+
+
 ## Project Overview
 Northwind Traders is a global supplier of speciality food products. This project focuses on analyzing customer orders, product performance, shipping efficiency and sales trend to help optimize their operations. 
 
@@ -10,7 +21,7 @@ I was responsible for designing and building a database from the provided datase
 
 The goal was to uncover growth opportunities, improve operational efficiency and support data-deriven decision making.
 
-### Dashboard Requirement
+### KPIs and Business Requirement
 
  - Key Metrics:
     - Total Orders
@@ -29,13 +40,13 @@ The goal was to uncover growth opportunities, improve operational efficiency and
 - Structure Query Language (SQL) - Querying and extracting insights from the database
 - Power Bi - Interactive dashboard creation for visualization and analysis
 
-  ### Data Source
+### Data Source
 The dataset used for this analysis can be accessed in Microsoft Excel download here
 
 ### Data Cleaning
 - the dataset was cleaned in excel to ensure consistency and accuracy before analysis.
 - Duplicate were identified and removed.
-- Missing values were handled usind the mean, replacing them with the average avaliable data.
+- Missing values were handled using the mean, replacing them with the average avaliable data.
 
 ### Exploratory Data Analysis (EDA)
 - Using postgress SQL the dataset was queried to uncover sale trend, product performance, customer behaviour and shipping efficiency
