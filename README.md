@@ -46,7 +46,7 @@ The dataset used for this analysis can be accessed in Microsoft Excel download h
 View all SQL queries for this analysis [View SQL Queries](https://github.com/Chisom83/Northwind_Traders/blob/main/SQL_docuentation.md)
 
 ### DAX Measures
-[View DAX Measures](https://github.com/Chisom83/Northwind_Traders/blob/main/DAX_Measures.md)
+[View DAX Measures](./DAX_Measures.md)    https://github.com/Chisom83/Northwind_Traders/blob/main/DAX_Measures.md)
 
 ### Key Insight 
 - This analysis covers sales from mid 2013 to mid 2015.
