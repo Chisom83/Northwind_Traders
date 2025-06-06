@@ -87,7 +87,8 @@ View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)
 - Measure Used: [Total Orders](DAX_Measures.md#total-orders), [PYOrders](DAX_Measures.md#pyorders)
   
 #### Average Order Value
-> Image
+![AOV](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.AOV.png?raw=true)
+
 - Insight:
 $1.62K is the overall AOV.
     - 2013: $1.75K.
