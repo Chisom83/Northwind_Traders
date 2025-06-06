@@ -112,7 +112,7 @@ $1.62K is the overall AOV.
 - Measure Used: [Average Shipping Time](DAX_Measures.md#average-shipping-time)
 
 
-1. Are there any noticeable sales trends over time?
+#### Are there any noticeable sales trends over time?
 > Image
 - Insight
    - There is a downward noticeable sales trend overtime.
@@ -120,25 +120,29 @@ $1.62K is the overall AOV.
    - Sales decline between May to September, showing a seasonal drop in demand.
 - Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the Month column.
 
- 2. Which are the best and worst selling products?
+#### Which are the best and worst selling products?
 
 ##### Best Performing
 
 ![Best Performing](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.TandB.png?raw=true)
+
+##### Worst Performing
+
+![Worst Performing](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.W.png?raw=true)
 
 - Insight
    - Products performance varied by year, with some items performing strongly in one year and declining in another indicating shifts in customer preference and market demand.
  
 - Measure Used:[Switch Product Top/Bottom](DAX_Measures.md#swith-product-top-bottom) and the the ProductName column.
  
-3.Identify any key customers?
+#### Identify any key customers?
 > Image
 - Insight
    - SAVEA is the key customer, generating $94,063 in revenue, followed by ERNSH with $85,630.
    - SAVEA consistently remained the key customer from 2014 to 2015, indicating repeat purchased and strong brand loyalty.
 - Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the CustomerID column.
      
-4. Are shipping costs consistent across providers?
+#### Are shipping costs consistent across providers?
    
 ![Average Shipping Cost](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.A.png?raw=true)
 
@@ -147,7 +151,7 @@ $1.62K is the overall AOV.
    -  Federal shipping has the higest shipping cost, while Speedy Express offers the lowest rate.
 - Measure Used:[Average Freight](DAX_Measures.md#average-freight) and CompanyName column.
  
-5. How fast is their delivery service, how many orders are delivered on time or late?
+##### How fast is their delivery service, how many orders are delivered on time or late?
 
 ![Late/Ontime Delivery](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.LandT.png?raw=true)
 
