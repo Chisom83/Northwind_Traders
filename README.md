@@ -135,6 +135,7 @@ $1.62K is the overall AOV.
 - Measure Used:[Total Revenue](DAX_Measures.md#total-revenue) and the CustomerID column.
      
 4. Are shipping costs consistent across providers?
+   
 ![Average Shipping Cost](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.A.png?raw=true)
 
 - Insight
