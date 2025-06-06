@@ -144,7 +144,9 @@ $1.62K is the overall AOV.
 - Measure Used:[Average Freight](DAX_Measures.md#average-freight) and CompanyName column.
  
 5. How fast is their delivery service, how many orders are delivered on time or late?
-> Image
+
+![Late/Ontime Delivery](https://github.com/Chisom83/Northwind_Traders/blob/main/Image/N.LandT.png?raw=true)
+
 - Insight
   - On time delivery is generally consistent across all providers, indicating efficient logistics and order fufillment.
 - Measure Used:[OnTimeDelivery](DAX_Measures.md#on-time-delivery), [LateDelivery](DAX_Measures.md#late-delivery).
