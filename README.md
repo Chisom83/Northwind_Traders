@@ -43,7 +43,7 @@ The dataset used for this analysis can be accessed in Microsoft Excel download h
 - Using Power Bi I visualized Key Metrics and buusiness questions by creating an interactive dashboard. 
 
 ### SQL Query
-View all SQL queries for this analysis [View SQL Queries](https://github.com/Chisom83/Northwind_Traders/blob/main/SQL_docuentation.md)
+View all SQL queries for this analysis [View SQL Queries](./SQL_docuentation.md)   https://github.com/Chisom83/Northwind_Traders/blob/main/SQL_docuentation.md)
 
 ### DAX Measures
 [View DAX Measures](./DAX_Measures.md)    https://github.com/Chisom83/Northwind_Traders/blob/main/DAX_Measures.md)
