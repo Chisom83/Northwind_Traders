@@ -54,17 +54,19 @@ View all SQL queries for this analysis [View SQL Queries](https://github.com/Chi
 #### Total Orders
 > Image
 - Insight:
+
 A total of $1 million in revenue was generated across the period.
-    - 2013 generated $227K covers only the second half of the year data.
-    - 2014 generated 565K for full year data.
-    - 2015 generated 339K covers only the first half of the year data.
-  - 2014 recorded the highest revenue, driven by both higher order volume and full year sales.    
+     - 2013 generated $227K covers only the second half of the year data.
+     - 2014 generated 565K for full year data.
+     - 2015 generated 339K covers only the first half of the year data.
+     - 2014 recorded the highest revenue, driven by both higher order volume and full year sales.    
 - Measure Used:
 
 #### Total Revenue
 > Image
 - Insight:
-  A total of 700 orders were recorded.
+
+   A total of 700 orders were recorded.
      - 2013: 130 orders.
      - 2014: 359 orders.
      - 2015: 211 orders.
@@ -74,20 +76,28 @@ A total of $1 million in revenue was generated across the period.
 #### Average Order Value
 > Image
 - Insight:
+
 $1.62K is the overall AOV.
    - 2013: $1.75K.
    - 2014: $1.58K.
    - 2015: $1.60K.
- - In 2013, AOV exceeded the overall AOV which shows that customers made fewer but larger purchase.
- - While in 2014 the AOV is slghtly low because it had more diverse spending patterns which balanced out the higher AOV in 2013.
+   - In 2013, AOV exceeded the overall AOV which shows that customers made fewer but larger purchase.
+   - While in 2014 the AOV is slghtly low because it had more diverse spending patterns which balanced out the higher AOV in 2013.
  
 
 - Measure Used
 
 - Shipping Efficiency (Average Shipping Time)
 > Image
-> Insight
-> Measure Used
+- Insight:
+
+Shipping time ranged between 8-9 days, which is considered reasonable fo standard delivery
+    - 2013: 8 days
+    - 2014: 9 days
+    - 2015: 8 days
+    - 2014 had slightly longer shipping time compared to other years, but overall delivery performance remained within an acceptable range.
+
+- Measure Used
 
 
 1. Are there any noticeable sales trends over time?
