@@ -1,6 +1,6 @@
 # Northwind_Traders
 
-![Pizza Pro](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/Pizza%20Pro.jpg?raw=true)
+![Pizza Pro](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.orthwind.jpg?raw=true)
 
 ## Table of Content
 [Project Overview](#project-overview)
