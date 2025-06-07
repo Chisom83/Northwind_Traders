@@ -1,3 +1,4 @@
+
 # Northwind_Traders
 
 ![Pizza Pro](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.orthwind.jpg?raw=true)
@@ -175,5 +176,6 @@ $1.62K is the overall AOV.
 
 ### Dashboard
 - A screenshot of the dashboard
+![Dashboard](https://github.com/Chisom83/Northwind_Traders/blob/main/Image%202/N.Dashboard.png?raw=true)
 
 - Link to dashboard
